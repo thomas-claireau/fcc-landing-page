@@ -1,0 +1,17 @@
+
+# Created by https://www.gitignore.io/api/sass,prepros
+# Edit at https://www.gitignore.io/?templates=sass,prepros
+
+### Prepros ###
+# Config Prepros files to ignore
+prepros.cfg
+prepros-6.config
+prepros.config
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# End of https://www.gitignore.io/api/sass,prepros

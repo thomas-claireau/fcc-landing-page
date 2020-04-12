@@ -11,4 +11,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			svg.classList.add('activeSvg');
 		});
 	});
+
+	const header = document.querySelector('#header');
+
+	if (!header) return;
+
+	window.addEventListener('scroll', () => {
+		if (window.scrollY) {
+			header.classList.add('scroll');
+		} else {
+			header.classList.remove('scroll');
+		}
+	});
 });
